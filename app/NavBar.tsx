@@ -24,10 +24,10 @@ const NavBar = () => {
                      href={link.href}
                      className={classNames(
                         {
-                           "text-neutral-200": currentPath === link.href,
-                           "text-neutral-500 ": currentPath !== link.href,
+                           "text-neutral-800": currentPath === link.href,
+                           "text-neutral-400 ": currentPath !== link.href,
                         },
-                        "hover:text-neutral-400 transition-colors",
+                        "hover:text-neutral-600 transition-colors",
                      )}
                   >
                      {link.name}
